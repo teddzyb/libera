@@ -25,7 +25,8 @@ hr {
 
 h2 {
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 35px;
+  line-height: 50px;
 }
 
 input:focus {
@@ -57,11 +58,12 @@ button:focus {
 }
 
 .floating-div {
-  width: 100%;
+  width: 400px;
   margin-top  : 50px;
-  height: 500px;
-  border-radius: 20px;
+  height: 520px;
+  border-radius: 35px;
   background-color: white;
+  padding: 30px 30px 50px 30px;
   box-shadow: 0px 0px 45px -30px rgba(0,0,0,1);
 }
 
@@ -71,7 +73,7 @@ button:focus {
 }
 
 .signup button {
-  margin-right: 45px;
+  margin-right: 0px;
   width: 115px;
   height: 35px;
   border-radius: 20px;
@@ -91,46 +93,55 @@ button:focus {
 }
 
 .floating-div h2 {
-  margin-bottom: 0;
-  margin-top: 30px;
+ 
+  font-size: 40px;
 }
 
 .floating-div h2, p, input {
-    margin-left: 40px;
+   
+    margin-top: 60px;
 }
 
 .floating-div-p1 {
-  margin-top: 50px;
-  margin-bottom: 10px;
-  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  top:20px;
+  font-weight: light;
+  opacity: 70%;
 }
 
 .floating-div-p2 {
-  margin-top: 40px;
+  background-color: white ;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 #input {
+  position: relative;
+  bottom: 40px;
   display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
 }
 
 #address {
-  width: 300px;
-  height: 45px;
+  width: 95%;
+  height: 50px;
   background-color: #E8F0FB;
+  margin-bottom: 12px;
   border-radius: 30px;
   border: 1px solid #E8F0FB;
-  padding-left: 15px;
+  padding-left: 20px;
   font-size: 15px;
 }
 
 #submitAddress {
-  height: 49px;
-  width: 130px;
-  z-index: 2;
-  position: relative;
-  left: -50px;
+  height: 55px;
+  width: 100%;
+  
+  
   border-radius: 30px;
   border: 1px solid #005CCA;
   background-color: #005CCA;
@@ -147,7 +158,7 @@ button:focus {
 .iconify {
   font-size: 30px;
   color: #005CCA;
-  margin: 5px 15px 10px 40px;
+  margin: 5px 15px 10px 0px;
 }
 
 #icon1 {
@@ -156,6 +167,7 @@ button:focus {
 
 #icon2 {
   padding-bottom: 4px;
+  margin-left: 20px;
 }
 
 #GPS, #Maps {
@@ -168,6 +180,39 @@ button:focus {
   color: #005CCA;
   cursor: pointer;
 }
+
+
+.main_body {
+  display: flex;
+  flex-direction: column;
+  margin: 300px 20% 200px 20%;
+  background: white;
+  align-items: center;
+}
+
+.body_rows {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 500px;
+}
+
+.body_col1 {
+  width: 45%;
+  background-color: white;
+}
+
+.body_col2 {
+  width: 45%;
+  background-color: white;
+}
+
+.clip_art {
+  max-height: 300px;
+  align-items: right;
+}
+
+
 
 
 /* HEADER */
@@ -210,10 +255,6 @@ li, a {
   background-color: #32394A;
 }
 
-.navigation {
-
-
-}
 
 .navigation li {
   display: inline-block;
