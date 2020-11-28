@@ -23,7 +23,7 @@
           <li><a href="#">Downloads</a></li>
           <li><a href="#">Language</a></li>
           <li><a href="#">cart</a></li>
-          <li><a href="#"><b>Sign in</b></a></li>
+          <li><a href="#"><b>Order Now</b></a></li>
         </ul>
       </nav>
     </header>
@@ -34,19 +34,21 @@
       <div class="left-body">
         <p>Welcome to<br>LaundryPanda</p>
       </div>
+      <div class="middle-body"></div>
       <div class="right-body">
         <h3>LaundryPanda</h3>
-        <p>Email Address</p><br>
-        <input type="email" name="email" placeholder="Enter email"><br>
-        <p>Password</p><br>
-        <input type="password" name="password" placeholder="Enter password"><br>
-        <input type="checkbox" name="rememberMe">
-        <span>Remember Me</span><br>
-        <input type="submit" name="signIn" value="Sign in now"><br>
-        <p>Or</p>
-        <input type="submit" name="googleSignIn" value="Sign in with Google"><br>
-        <h6>Dont't have an account? <a href="#">Sign up</a></h6>
-
+        <div class="form">
+          <p>Email Address</p>
+          <input required type="email" name="email" placeholder="Enter email address">
+          <p>Password</p>
+          <input required type="password" name="password" placeholder="Enter password">
+          <input type="checkbox" name="rememberMe" id="remember">
+          <p id="rememberMe">Remember Me</p>
+          <input type="submit" name="signIn" value="Sign in now" id="signin">
+          <p id="or">Or</p>
+          <input type="submit" name="googleSignIn" value="Sign in with Google" id="google"><br>
+          <h6>Dont't have an account? <a href="#" id="signup">Sign up</a></h6>
+        </div>
       </div>
     </div>
 

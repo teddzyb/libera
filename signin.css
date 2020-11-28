@@ -87,17 +87,13 @@ button:focus {
   padding: 0 15% 0 0;
 }
 
-.main-body div {
-  border: 2px solid black;
-  flex-basis: 50%;
-}
-
 .left-body {
   background-image: url(images/background-1.png);
   background-position: center;
   background-size: cover;
   color: white;
   display: flex;
+  flex-basis: 55%;
 }
 
 .left-body p {
@@ -105,13 +101,86 @@ button:focus {
   font-size: 30px;
 }
 
+.middle-body {
+  flex-basis: 10%;
+}
+
 .right-body {
+  text-align: center;
+  flex-basis: 40%;
+}
+
+.right-body p, span {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.right-body h3 {
+  margin-bottom: 25px;
+}
+
+.form {
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+.form input {
+  width: 286px;
+  height: 41px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#remember {
+  width: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#rememberMe {
+  display: inline;
+  vertical-align: text-bottom;
+}
+
+#signin {
+  margin-top: 40px;
+}
+
+#signin, #google {
+  width: 300px;
+  background-color: #1565D8;
+  color: white;
+  border: none;
+  height: 45px;
+}
+
+#or {
   text-align: center;
 }
 
-.right-body p {
-  font-size: 15px;
-  margin-left: 5%;
+#google {
+  background-color: white;
+  color: black;
+  box-shadow: 0 -2px 5px 0 rgba(0,0,0,0.1), 0 5px 15px 0 rgba(0,0,0,0.1);
+}
+
+#remember {
+  height: auto;
+}
+
+#signup {
+  color: #1565D8;
+  background-color: white;
+}
+
+#signup:hover {
+  color: black;
+}
+
+.form h6 {
+  text-align: center;
 }
 
 
