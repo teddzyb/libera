@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;700&display=swap');
-//font-family: 'IBM Plex Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800;900&display=swap');
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  line-height: 2rem;
 }
 
 html {
@@ -17,50 +16,16 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
   color: black;
 }
 
-p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 138%;
-  /* or 28px */
-  letter-spacing: 0.0075em;
-}
-
-h1 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 96px;
-  line-height: 125%;
-  /* identical to box height, or 120px */
-  letter-spacing: -0.015em;
+hr {
+  opacity: 30%;
 }
 
 h2 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 133%;
-  /* identical to box height, or 80px */
-  letter-spacing: -0.01em;
-}
-
-h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 133%;
-  /* identical to box height, or 64px */
-  letter-spacing: -0.005em;
-}
-
-h4 {
-  font-style: normal;
-  font-size: 34px;
-  line-height: 130%;
+  font-weight: 800;
+  font-size: 2rem;
 }
 
 input:focus {
@@ -75,13 +40,13 @@ button:focus {
 
 .main-body {
   height: 700px;
-  
-  
+
+
   background-image: url(images/background.jpg);
   background-position: center;
   background-size: cover;
   /*background-color: #005CCA;*/
-  
+
   display: flex;
   padding: 0 15%;
 }
@@ -94,19 +59,19 @@ button:focus {
 .floating-div {
   width: 100%;
   margin-top  : 50px;
-  height: 550px;
+  height: 500px;
   border-radius: 20px;
   background-color: white;
   box-shadow: 0px 0px 45px -30px rgba(0,0,0,1);
 }
 
 .signup {
-  padding-top: 35px;
+  padding-top: 40px;
   text-align: right;
 }
 
 .signup button {
-  margin-right: 40px;
+  margin-right: 45px;
   width: 115px;
   height: 35px;
   border-radius: 20px;
@@ -125,23 +90,25 @@ button:focus {
   cursor: pointer;
 }
 
-.floating-div h4 {
+.floating-div h2 {
   margin-bottom: 0;
   margin-top: 30px;
 }
 
-.floating-div h4, p, input {
+.floating-div h2, p, input {
     margin-left: 40px;
 }
 
 .floating-div-p1 {
   margin-top: 50px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .floating-div-p2 {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 #input {
@@ -149,7 +116,7 @@ button:focus {
 }
 
 #address {
-  width: 275px;
+  width: 300px;
   height: 45px;
   background-color: #E8F0FB;
   border-radius: 30px;
@@ -188,12 +155,18 @@ button:focus {
 }
 
 #icon2 {
-  padding-left: 4px;
+  padding-bottom: 4px;
 }
 
 #GPS, #Maps {
   display: inline-block;
   vertical-align: text-bottom;
+  margin: 0 0 15px 0;
+}
+
+#GPS:hover, #Maps:hover {
+  color: #005CCA;
+  cursor: pointer;
 }
 
 
@@ -215,8 +188,19 @@ nav {
 }
 
 .logo {
+  font-weight: 900;
+  font-size: 2rem;
   color: white;
   margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo a {
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
 }
 
 li, a {
@@ -241,10 +225,8 @@ li, a {
 
 footer {
   background-color: #32394A;
-  display: flex;
-  justify-content: center;
-  align_content: center;
   padding: 5%;
+
 }
 
 .footmain {
@@ -257,9 +239,28 @@ footer {
   color: white;
   opacity: 20%;
   font-family: arial;
-  line-height: 1.5rem;
+  line-height: 2.2rem;
 }
 
 #foot_logo {
-  font-size: 2rem;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #0087DB;
+  margin: 100px 15% 40px 15%;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2F2F2;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0087DB;
+  border-radius: 10px;
 }
