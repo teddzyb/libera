@@ -32,7 +32,7 @@ h2 {
 input:focus {
   outline: none;
 }
-
+ 
 button:focus {
   outline: none;
 }
@@ -43,7 +43,7 @@ button:focus {
   height: 700px;
 
 
-  background-image: url(images/background.jpg);
+  background-image: url(background.jpg);
   background-position: center;
   background-size: cover;
   /*background-color: #005CCA;*/
@@ -97,7 +97,7 @@ button:focus {
   font-size: 40px;
 }
 
-.floating-div h2, p, input {
+.floating-div h2, p, #address {
    
     margin-top: 60px;
 }
@@ -185,35 +185,116 @@ button:focus {
 .main_body {
   display: flex;
   flex-direction: column;
-  margin: 300px 20% 200px 20%;
+  
   background: white;
   align-items: center;
 }
 
 .body_rows {
-  background-color: white;
+  background-color:white;
   display: flex;
+  height: 600px;
   justify-content: space-between;
-  margin-bottom: 500px;
-}
-
-.body_col1 {
-  width: 45%;
-  background-color: white;
+  padding:100px 0;
+  margin: 00px 20% 00px 20%;
 }
 
 .body_col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
   width: 45%;
-  background-color: white;
+  
+}
+
+.body_col1 {
+  display: flex;
+
+}
+
+h3 {
+  font-size: 40px;
+  text-align: left;
+  font-weight: 900;
+
 }
 
 .clip_art {
-  max-height: 300px;
-  align-items: right;
+  width: 600px;
+  
+}
+
+.interested {
+  flex-direction: column;
+  display: flex;
+  margin: 0 15%; 
+  align-items: center;
+  background-color: white;
 }
 
 
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
 
+.main_fill_out {
+  background-color: #32394A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 15% 80px 15%;
+  padding: 80px 30px;
+  border-radius: 30px;
+}
+
+#textA {
+  width: 100%;
+}
+
+.shop_input {
+  width: 97%;
+  padding: 10px 0 10px 20px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  margin: 0px 10% 20px 0;
+  border: none;
+}
+
+.iheader_section p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.desc_section {
+  background-color: white;
+  
+  width: 700px;
+}
+
+#shop_desc {
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+}
+
+#submit_fill_out {
+  background-color: #0087DB;
+  border: none;
+  padding: 20px 10px;
+  color: white;
+  width: 100%;
+  border-radius: 50px;
+}
+
+#submit_fill_out:hover {
+  background-color:  hsl(203, 100%, 64%);
+}
 
 /* HEADER */
 
