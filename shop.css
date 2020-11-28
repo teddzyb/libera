@@ -1,0 +1,166 @@
+* {
+	font-family: arial;
+}
+
+hr{
+  opacity: 30%; 
+}
+
+.mainrow1 {
+  height: 600px;
+  background-color: blue;
+}
+.mainrow2 {
+  height: 500px;
+  background-color: blue;
+}
+
+
+.pick_search {
+  background-color: orange;
+  display: flex;
+  height: 250px;
+  margin: 0 15%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.all_shop {
+  background-color: white;
+  height: 80px;
+  margin: 0 15%;
+}
+
+#pick {
+  text-align: center;
+}
+
+input[type=text] {
+  float: right;
+  padding: 6px;
+  height: 40px;
+  width: 98.3%;
+  border: none;
+  border-radius: 40px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #F2F2F2;
+  font-size: 17px;
+}
+
+.exclusive_shops {
+  background-color: brown;
+  display:flex;
+  height: 500px;
+  justify-content: space-between;
+}
+
+.image {
+  background-color: gray;
+  height: 120px;
+  width: 210px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.shop {
+  background-color: white;
+  height: 290px;
+  width: 210px;
+  margin: 0 5px;
+  border-radius: 25px;
+  
+ 
+}
+
+.shop_name {
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+  line-height: 1rem;
+  padding: 10px;
+}
+
+.shop_description {
+  line-height: 1.4rem;
+  padding: 10px;
+}
+
+#pick {
+  font-size: 40px;
+}
+
+.scrollbar {
+  background-color: green;
+  margin-top: 50px;
+  height: 100p;
+  width: 70%;
+  margin: 50px 15% 0px 15%;
+}
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    flex-direction: row;
+    background-color: #32394A;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+  }
+  
+  .logo {
+    color: white;
+    margin-left: 15%;
+  }
+  
+  li, a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    background-color: #32394A;
+  }
+  
+  .navigation {
+    
+    
+  }
+  
+  .navigation li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-transform: uppercase;
+  }
+  
+  footer {
+    background-color: #32394A;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5%;
+  }
+  
+  .footmain {
+    line-height: 1.5rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .reserve {
+    color: white;
+    opacity: 20%;
+    font-family: arial;
+    line-height: 1.5rem;
+  }
+  
+  #foot_logo {
+    font-size: 2rem;
+  }
