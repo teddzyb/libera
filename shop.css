@@ -235,6 +235,12 @@ nav {
   justify-content: center;
 }
 
+.logo a {
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+}
+
 a {
   font-size: 12px;
   color: white;
