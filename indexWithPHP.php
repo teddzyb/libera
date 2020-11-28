@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta property="og:title" content="" />
+    <meta property="og:title" content="Libera PH" />
     <meta property="og:description" content="" />
     <meta property="og:image" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Libera PH</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="icon" href="favicon.ico">
@@ -16,7 +16,7 @@
   <body>
     <!-- HEADER -->
     <header>
-      <div class="logo"><h5>GoLaundry</h5></div>
+      <div class="logo"><h5>LIBERA</h5></div>
       <nav>
         <ul class="navigation">
           <li><a href="#"><b>Log In</b></a></li>
@@ -63,11 +63,11 @@
 
   <footer>
     <div class="footmain">
-      <h5 id="foot_logo">COMP NAME</h5>
+      <h5 id="foot_logo">LIBERA PH</h5>
       <a href="#">Info</a>&nbsp•&nbsp
       <a href="#">Support</a><br>
       <a href="#">Terms of Use</a>&nbsp•&nbsp<a href="#">Privacy Policy</a>
-      <div class="reserve">@2020 COMP NAME ALL RIGHTS RESERVED</div>
+      <div class="reserve">@2020 LIBERA ALL RIGHTS RESERVED</div>
     </div>
   </footer>
 
