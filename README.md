@@ -19,3 +19,7 @@ libera, a website for a Philippines-based laundry delivery service--created for 
 ## Contributors
 
 Team ITX
+  - Horeb Barriga
+  - Edwin Bartlett
+  - Jan Anne Ebon
+  - Dan Jeryll Almaden
