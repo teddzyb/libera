@@ -29,11 +29,56 @@
     </header>
 
     <!-- BODY -->
-
+    <img src="images/shop.jpg" id="cover">
     <div class="main-body">
+      <div class="leftdiv">
+        <h2>Laundry Shop 1</h2>
+        <span class="iconify blue" data-inline="false" data-icon="ic:baseline-location-on"></span>
+        <p>I. Villa St, Apas, Cebu City</p><br>
+        <span class="iconify blue" data-inline="false" data-icon="bx:bx-purchase-tag-alt"></span>
+        <p>P29/kilo</p>
+        <h3>Delivery Information</h3>
+        <span class="iconify" data-inline="false" data-icon="bx:bx-user"></span>
+        <input required type="text" value=""><br>
+        <span class="iconify" data-inline="false" data-icon="ph:house"></span>
+        <input readonly type="text" value="address" id="address"><br>
+        <span class="iconify" data-inline="false" data-icon="bx:bx-phone"></span>
+        <input required type="text" value="">
+        <h5>Additional Notes:</h5>
+        <textarea type="text" value="" id="notes" class="indent" rows="4" cols="50"></textarea><br>
 
-
-
+      </div>
+      <div class="rightdiv">
+        <p id="spaceaboveman">Order Summary</p>
+        <div class="topright">
+          <div class="loads">
+            <img src="images/small.png">
+            <p>Small Load</p>
+            <input type="radio" value="" class="number"><br>
+            <img src="images/medium.png">
+            <p>Medium Load</p>
+            <input type="radio" value="" class="number"><br>
+            <img src="images/large.png">
+            <p>Large Load</p>
+            <input type="radio" value="" class="number">
+          </div>
+          <hr class="solid">
+          <div class="prices">
+            <p>Subtotal</p><p class="right">P0.00</p><br>
+            <p>Delivery Fee</p><p class="right">P0.00</p><br>
+            <p>Discount</p><p class="right">P0.00</p><br>
+            <p>Total</p><p class="right">P0.00</p>
+          </div>
+        </div>
+        <div class="bottomright">
+          <h5 id="nomargin">Payment Method</h5>
+          <input type="radio">
+          <p>Online Payment</p><br>
+          <input type="radio">
+          <p>COD</p>
+        </div>
+        <input type="submit" value="Confirm Order" class="indent" id="confirm">
+      </div>
     </div>
 
 
