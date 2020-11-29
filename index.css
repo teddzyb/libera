@@ -32,7 +32,7 @@ h2 {
 input:focus {
   outline: none;
 }
- 
+
 button:focus {
   outline: none;
 }
@@ -41,9 +41,7 @@ button:focus {
 
 .main-body {
   height: 700px;
-
-
-  background-image: url(background.jpg);
+  background-image: url(images/background.jpg);
   background-position: center;
   background-size: cover;
   /*background-color: #005CCA;*/
@@ -93,12 +91,12 @@ button:focus {
 }
 
 .floating-div h2 {
- 
+
   font-size: 40px;
 }
 
 .floating-div h2, p, #address {
-   
+
     margin-top: 60px;
 }
 
@@ -140,8 +138,8 @@ button:focus {
 #submitAddress {
   height: 55px;
   width: 100%;
-  
-  
+
+
   border-radius: 30px;
   border: 1px solid #005CCA;
   background-color: #005CCA;
@@ -185,7 +183,7 @@ button:focus {
 .main_body {
   display: flex;
   flex-direction: column;
-  
+
   background: white;
   align-items: center;
 }
@@ -205,7 +203,7 @@ button:focus {
   justify-content: center;
   align-items: left;
   width: 45%;
-  
+
 }
 
 .body_col1 {
@@ -222,13 +220,13 @@ h3 {
 
 .clip_art {
   width: 600px;
-  
+
 }
 
 .interested {
   flex-direction: column;
   display: flex;
-  margin: 0 15%; 
+  margin: 0 15%;
   align-items: center;
   background-color: white;
 }
@@ -273,7 +271,7 @@ h1 {
 
 .desc_section {
   background-color: white;
-  
+
   width: 700px;
 }
 
