@@ -16,7 +16,7 @@ http://liberaph.club/
 6. Select the 'maps.sql' from the download folder and press Go
 7. Move 'libera-main' folder to 'C:\xampp\htdocs'
 8. Goto browser (any browser) and type 'localhost/libera-main/index.php'
-9. Youre in the Home page! Feel free to test it. (also dont forget to sign in) :)
+9. You're in the Home page! Feel free to test it. (also dont forget to sign in) :)
 
 ## Issues
 When starting Apache service in XAMPP, you might get a problem stating `Port 80 in use by "Unable to open process" with PID 4!`.
