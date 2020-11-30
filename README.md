@@ -5,7 +5,7 @@ libera, a website for a Philippines-based laundry delivery service--created for 
 http://liberaph.club/
 
 ## Installation
-1. Install XAMPP
+1. Install [XAMPP](https://www.apachefriends.org/index.html)
 2. In XAMPP Control Panel, start Apache and MySql
 3. Goto browser (any browser) and type 'localhost/phpmyadmin'
 4. On the left side, click new
