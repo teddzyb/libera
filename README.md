@@ -7,7 +7,7 @@ http://liberaph.club/
 ## Installation
 1. Install XAMPP
 2. In XAMPP Control Panel, start Apache and MySql
-3. Goto browser(any browser) and type 'localhost/phpmyadmin'
+3. Goto browser (any browser) and type 'localhost/phpmyadmin'
 4. On the left side, click new
 5. Enter 'maps' in the 'Database name' textbox
 6. Press Create
