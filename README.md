@@ -27,6 +27,9 @@ Now it avoids Port 80 and uses Port 8080 instead without issue. **The only addit
 
 Solution taken from [Stack Overflow](https://stackoverflow.com/questions/23317372/xampp-port-80-in-use-by-unable-to-open-process-with-pid-4).
 
+## Project Status
+Ongoing
+
 ## Contributors
 **Team ITX**
   - Horeb Barriga
