@@ -15,6 +15,8 @@
 8. Open a browser (any browser) and type 'localhost/libera-main'
 9. You're in the Landing Page! Feel free to test out the features. (Also dont forget to sign in) :)
 
+## Screenshots
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/teddzyb/libera/main/screenshots/libera_landing.png"/>
   Landing Page
