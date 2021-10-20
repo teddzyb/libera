@@ -1,5 +1,5 @@
 # libera
-libera, a website for a Philippines-based laundry delivery service--created for HackFest 2020 online hackathon.
+libera, a website for a Philippines-based laundry delivery service--created for HackFest 2020 Online hackathon.
 
 ## Installation
 1. Install [XAMPP](https://www.apachefriends.org/index.html)
