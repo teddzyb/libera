@@ -1,9 +1,6 @@
 # libera
 libera, a website for a Philippines-based laundry delivery service--created for HackFest 2020 online hackathon.
 
-## Website link
-http://liberaph.club/
-
 ## Installation
 1. Install [XAMPP](https://www.apachefriends.org/index.html)
 2. In XAMPP Control Panel, start Apache and MySql
